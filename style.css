@@ -1,0 +1,106 @@
+body{
+    background-color: #f0f2f5;
+}
+.main-container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    /* align-items: center; */
+}
+
+.grid-container-1{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.grid-container-2{
+    height: 320px;
+    width: 350px;
+    /* margin: 10px auto; */
+    border: thin solid rgb(216, 213, 213);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px grey;
+}
+
+input{
+    display: block;
+    outline: none;
+    border: 1px solid rgb(228, 219, 219);
+}
+
+.grid-container-2 > form {
+    width: 300px;
+    margin: 10px auto;
+}
+
+hr {
+    width: 278px;
+}
+
+button{
+    border: none;
+    display: block;
+    width: 278px;
+    text-decoration: none;
+    background-color: #0866ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+/* h2{
+    color: #0866ff;
+    font-size: 45px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+} */
+img {
+    width: 250px;
+    height: 100px;
+}
+#account{
+    background-color: #42b72a;
+    color: white;
+    
+   
+}
+
+input, #account{
+    width: 250px;
+}
+
+input, #account, button{
+    margin: 12px;
+    padding: 12px 14px;
+}
+
+input, button, a{
+    border-radius: 5px;
+}
+
+p{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+#redirect{
+    color: #0866ff;
+}
+
+#redirect:hover{
+    text-decoration: underline;
+}
